@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Didact+Gothic&display=swap');
+
+nav{
+    padding: 0 5%;
+    font-size: 15pt;
+}
+
+#home{
+    position: fixed;
+}
+
+.logo{
+    width: 5%;
+    border-radius: 6px;
+    margin: 5px 10px 5px 50px;
+}
+
+#start{
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    background-color: #1746A2;
+    color: white;
+}
+
+.circuit{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+
+.col{
+    padding: 2% 5%;
+}
+
+.company{
+    font-family: 'Cinzel', serif;
+    font-size: 40pt;
+    margin-top: 45px;
+}
+
+.bord{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.presentation{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20pt;
+}
+
+/* --- services --- */
+
+#services{
+    padding: 2% 10%;
+    margin-bottom: 30px;
+}
+
+.col{
+    border: 1px solid;
+}
+
+.soft-img{
+    width: 100%;
+}
+
+.note{
+    color: white;
+}
+
+.desk{
+    color: white;
+}
+
+.words-align{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    z-index: -1;
+}
+
+.card-header{
+    text-align: center;
+    border: 1px solid;
+    border-bottom: none;
+}
+
+.card-body{
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.card-footer{
+    border: 1px solid;
+}
+
+/* --- local --- */
+
+#local{
+    background-color: #1746A2;
+    color: white;
+    padding: 2% 10%;
+}
+
+.panfleto{
+    width: 78%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 65px;
+}
+
+.map{
+    width: 80%;
+    margin-left: 65px;
+    border-radius: 10px;
+}
+
+/* --- contact --- */
+
+#contact{
+    padding: 2% 10%;
+}
+
+.ali{
+    text-align: center;
+}
+
+.iconZap{
+    color: green;
+}
+
+.iconInsta{
+    color: #EA047E;
+}
+
+/* --- @media queries --- */
+
+@media (max-width: 850px){
+    #home{
+        position: fixed;
+    }
+
+    .logo{
+        width: 10%;
+        margin-left: 25px;
+    }
+
+    .nav-link{
+        margin-left: 25px;
+    }
+
+    #start{
+        padding-top: 0;
+        padding-left: 2%;
+        /*padding-bottom: 30px;*/
+    }
+
+    .company{
+        margin-top: 75px;
+    }
+
+    .circuit{
+        margin-left: 10px;
+    }
+
+    .bord{
+        border: none;
+        margin-left: 10px;
+    }
+
+    #services{
+        padding-top: 30px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .padd-bott{
+        margin-bottom: 0;
+    }
+
+    #local{
+        padding-top: 30px;
+    }
+
+    .map{
+        width: 100%;
+        padding-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .panfleto{
+        width: 70%;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 450px){
+    #home{
+        position: static;
+    }
+    
+    .logo{
+        width: 15%;
+        margin-left: 10px;
+    }
+
+    .nav-link{
+        margin-left: 10px;
+    }
+
+    #start{
+        padding-bottom: 20px;
+    }
+
+    .company{
+        margin-top: 10px;
+    }
+
+    .circuit{
+        margin-left: 5px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .padd-bott{
+        margin-bottom: 0;
+    }
+
+    #contact{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 428px){
+    .panfleto{
+        margin-left: 47px;
+    }
+}
+
+@media (max-width: 412px){
+    #home{
+        position: fixed;
+    }
+
+    .company{
+        margin-top: 60px;
+    }
+
+    .panfleto{
+        width: 100%;
+        margin-left: 2px;
+    }
+}
